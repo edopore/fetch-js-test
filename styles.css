@@ -1,3 +1,7 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
 ul {
   list-style: none;
 }
@@ -7,10 +11,17 @@ ul {
   width: 100%;
   text-align: center;
 }
+.main {
+  text-align: center;
+  padding: 92px 92px;
+}
+
 .poke-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  text-align: center;
+  padding: 0;
   gap: 1rem;
 }
 .pokemon-item {

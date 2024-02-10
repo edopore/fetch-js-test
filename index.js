@@ -22,7 +22,7 @@ QUERY_PARAMS.selector.map((value) => {
 });
 
 function checkBtnPage() {
-  if (QUERY_PARAMS.offset === 0) {
+  if (QUERY_PARAMS.offset <= 0) {
     previousButton.setAttribute("disabled", "");
     nextButton.removeAttribute("disabled");
   } else if (QUERY_PARAMS.offset >= 1300) {
